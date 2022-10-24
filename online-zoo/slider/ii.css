@@ -1,0 +1,204 @@
+.animal{
+    width: 1158px;
+    height: 872px;
+    margin-top:207px;
+    margin-left:20px;
+    margin-right:20px;
+    animation: 0.5s ease-in-out;
+}
+.panda{
+    padding-bottom:13px;
+    margin-top: 5px;
+    width: 365px;
+    height: 410px;
+border:  2px solid #FA6F32;
+border-radius: 5px;
+}
+.alligator{
+    display: flex;
+    padding-bottom:13px;
+    margin-top: 5px;
+    width: 365px;
+    height: 410px;
+border:  2px solid #FA6F32;
+border-radius: 5px;
+}
+.padaImg{
+    width: 366px;
+    height: 366px;
+    background: url('../assets/images/Rectangle\ 5.png');
+}
+.namePanda{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+width: 294px;
+height: 22px;
+color: #000000;
+margin-left: 15px;
+margin-top: 4px;
+}
+.textPanda{
+    width: 294px;
+    height: 18px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120%;
+color: #000000;
+margin-left: 15px;
+margin-top: -3px;
+
+}
+.banana{
+    margin-left:321px;
+    margin-top: -100px;
+}
+.eagles{
+    width: 366px;
+height: 424px;
+border:  2px solid #FA6F32;
+border-radius: 5px;
+margin-left: 393px;
+margin-top: -427px;
+}
+.eaglesImg{
+    width: 366px;
+    height: 366px;
+    background: url('../assets/images/Rectangle\ 5\ \(1\).png');
+}
+.sa2{
+    margin-left: 15px;
+}
+.meetAndFish{
+    margin-left:305px;
+    margin-top: -100px; 
+}
+.gorilaz{
+    width: 366px;
+height: 424px;
+border:  2px solid #FA6F32;
+border-radius: 5px;
+margin-left:792px;
+margin-top: -428px;
+}
+.gorilazImg{
+    height: 366px;
+    width: 366px;
+    background: url('../assets/images/Rectangle\ 5\ \(2\).png');
+}
+.sloth{
+    width: 366px;
+    height: 424px;
+    border:  2px solid #FA6F32;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
+.slothImg{
+    width: 366px;
+    height: 366px;
+    background: url('../assets/images/Rectangle\ 5\ \(3\).png');
+}
+.cheetahs{
+    width: 366px;
+    height: 423px;
+    border: 2px solid #FA6F32;
+    border-radius: 5px;
+    margin-left: 399px;
+    margin-top: -430px;
+}
+.cheetahsImg{
+    width: 366px;
+    height: 366px;
+    background: url('../assets/images/Rectangle\ 5\ \(4\).png');
+}
+.peanguns{
+    width: 366px;
+    height: 424px;
+    border: 2px solid #FA6F32;
+    border-radius: 5px;
+    margin-left: 792px;
+    margin-top: -426px;
+}
+.peangunsImg{
+    width: 366px;
+    height: 366px;
+    background: url('../assets/images/Rectangle\ 5\ \(5\).png');
+}
+.strela{
+    position:absolute;
+}
+.rightStr{
+    POSITION: ABSOLUTE;
+    width: 62px;
+    height: 62px;
+    border-radius: 31px;
+    background-color: #F9804B;
+    margin-left: 247px;
+    margin-top: 214px;
+}
+.rightStr svg{
+    margin:27px 23px 27px 23px;
+}
+.leftStr{
+    position: absolute;
+    margin-top: 50%;
+    width: 62px;
+    height: 62px;
+    border-radius: 31px;
+    background-color: #F9804B;
+    margin-left: 138px;
+    margin-top: 104%;
+}
+
+.leftStr svg{
+    margin:27px 23px 27px 23px;
+}
+.item{
+    display: none;
+}
+.active,
+.next{
+    display: block;
+}
+.next{
+    position: absolute;
+    top: 700px;
+    width: 100%;
+}
+.to-left{
+animation-name: left;
+}
+.to-right{
+animation-name: right;
+animation-direction: reverse;
+}
+.from-left{
+    animation-name: left;
+    animation-direction: reverse;
+}
+.from-right{
+    animation-name: right;
+}
+@keyframes left {
+    from{
+        margin-left:0%;
+    }
+    to{
+        margin-left: -100%;
+    }
+
+}
+@keyframes left {
+    from{
+        margin-left:100%;
+    }
+    to{
+        margin-left: 0%;
+    }
+    
+}
